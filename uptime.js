@@ -7,8 +7,8 @@ const hourMarks = clock.querySelector("text");
 const secondMarks = clock.querySelector(".second-marks");
 const minuteMarks = clock.querySelector(".minute-marks");
 const params = new URLSearchParams(location.search);
-let numbered = params.has("numbered");
-let bounce = params.get("bounce") !== "no";
+let numbered = true//params.has("numbered");
+let bounce = true//params.get("bounce") !== "no";
 
 for (const [index, label] of hours.entries()) {
   hourMarks.appendChild(

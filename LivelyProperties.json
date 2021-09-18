@@ -12,7 +12,7 @@
   "showNumbers": {
     "text": "Show numbers",
     "type": "checkbox",
-    "value": false
+    "value": true
   },
   "enableBounce": {
     "text": "Enable bounce",
