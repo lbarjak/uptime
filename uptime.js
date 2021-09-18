@@ -2,7 +2,7 @@
 
 const clock = document.querySelector(".clock");
 const path = document.querySelector("#path");
-const hours = ["XII", "I", "II", "III", "IIII", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
+const hours = ["12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
 const hourMarks = clock.querySelector("text");
 const secondMarks = clock.querySelector(".second-marks");
 const minuteMarks = clock.querySelector(".minute-marks");

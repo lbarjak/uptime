@@ -11,12 +11,15 @@
 <body>
   <svg class="clock" viewBox="0 0 100 100">
     <defs>
-      <path id="path" d="M50,12a38,38 0 1,1 0,76a38,38 0 1,1 0,-76" />
+      <!-- <path id="path" d="M50,12a38,38 0 1,1 0,76a38,38 0 1,1 0,-76" /> -->
+      <path id="path" d="M51, 29 a 21, 21 0 1, 1 0, 42 a 21, 21 0 1, 1 0, -42" />0
     </defs>
-    <path class="hand hours" d="M50 25 V50" />
-    <path class="hand minutes" d="M50 14 V50" />
-    <path class="hand seconds" d="M50 3 V50" />
-    <text class="hour-marks" font-size="5" font-family="sans-serif" letter-spacing="-0.4" text-anchor="middle" />
+    <!-- <path class="hand hours" d="M50 25 V50" /> -->
+    <path class="hand hours" d="M50 25 l5 13 l-5 13 l-5 -13 l5 -13" />
+    <!-- <path class="hand minutes" d="M50 7 V50" /> -->
+    <path class="hand minutes" d="M50 7 l2 22 l-2 22 l-2 -22 l2 -22" />
+    <path class="hand seconds" d="M50 0 V60" />
+    <text class="hour-marks" font-size="6" font-family="serif" font-weight="bold" letter-spacing="-0.4" text-anchor="middle" />
     <g class="second-marks" />
     <g class="minute-marks" />
   </svg>
