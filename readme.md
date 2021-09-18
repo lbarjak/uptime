@@ -1,13 +1,10 @@
 # Uptime
 
-What time is it? up!
+Demo:
 
-An [/r/badUIbattles](https://www.reddit.com/r/badUIbattles/comments/pon2t6/a_convenient_analog_clock/) submission. Now available as a wallpaper using [Lively](https://github.com/rocksdanister/lively)!
+https://lbarjak.github.io/uptime/
 
-[Demo](https://izeau.github.io/uptime/)
 
-Extras:
+Forked from:
 
-- [numbered version](https://izeau.github.io/uptime/?numbered)
-- [no bounce](https://izeau.github.io/uptime/?bounce=no)
-- [numbered, no bounce](https://izeau.github.io/uptime/?numbered&bounce=no)
+https://github.com/izeau/uptime
