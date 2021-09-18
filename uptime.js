@@ -2,13 +2,13 @@
 
 const clock = document.querySelector(".clock");
 const path = document.querySelector("#path");
-const hours = ["XII", "I", "II", "III", "IIII", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
+const hours = ["12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
 const hourMarks = clock.querySelector("text");
 const secondMarks = clock.querySelector(".second-marks");
 const minuteMarks = clock.querySelector(".minute-marks");
 const params = new URLSearchParams(location.search);
-let numbered = params.has("numbered");
-let bounce = params.get("bounce") !== "no";
+let numbered = true//params.has("numbered");
+let bounce = false//params.get("bounce") !== "no";
 
 for (const [index, label] of hours.entries()) {
   hourMarks.appendChild(
@@ -44,7 +44,7 @@ for (let index = 0; index < 60; index += 1) {
         transform: `rotate(${index * 6} 50 50)`,
         innerHTML: index,
         x: 50,
-        y: 5,
+        y: 10,
       })
     );
 

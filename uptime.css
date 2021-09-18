@@ -1,5 +1,5 @@
 :root {
-  --background-color: #b71540;
+  --background-color: #505050;
   --clock-color: #fff;
   --clock-size: 300px;
 }
@@ -27,15 +27,20 @@ body {
 }
 
 .clock .hand.hours {
-  stroke-width: 2;
+  stroke-width: 0.7;
+  stroke:rgb(255, 255, 255);
+  fill-opacity: 0;
 }
 
 .clock .hand.minutes {
-  stroke-width: 1;
+  stroke-width: 0.7;
+  stroke:rgb(255, 255, 255);
+  fill-opacity: 0;
 }
 
 .clock .hand.seconds {
   stroke-width: 0.5;
+  stroke: #ff0000;
 }
 
 .clock .hour-marks {
@@ -54,14 +59,14 @@ body {
 
 .clock .minute-marks .numbered-mark {
   fill: var(--clock-color);
-  font-size: 3px;
+  font-size: 9px;
   font-family: sans-serif;
   text-anchor: middle;
 }
 
 .clock .second-marks .numbered-mark {
   fill: var(--clock-color);
-  font-size: 2px;
+  font-size: 3px;
   font-family: sans-serif;
   text-anchor: middle;
 }
