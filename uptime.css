@@ -59,7 +59,7 @@ body {
 
 .clock .minute-marks .numbered-mark {
   fill: var(--clock-color);
-  font-size: 10px;
+  font-size: 9px;
   font-family: sans-serif;
   text-anchor: middle;
 }
