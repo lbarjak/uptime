@@ -8,7 +8,7 @@ const secondMarks = clock.querySelector(".second-marks");
 const minuteMarks = clock.querySelector(".minute-marks");
 const params = new URLSearchParams(location.search);
 let numbered = true//params.has("numbered");
-let bounce = true//params.get("bounce") !== "no";
+let bounce = false//params.get("bounce") !== "no";
 
 for (const [index, label] of hours.entries()) {
   hourMarks.appendChild(
@@ -44,7 +44,7 @@ for (let index = 0; index < 60; index += 1) {
         transform: `rotate(${index * 6} 50 50)`,
         innerHTML: index,
         x: 50,
-        y: 5,
+        y: 10,
       })
     );
 

@@ -27,15 +27,17 @@ body {
 }
 
 .clock .hand.hours {
-  stroke-width: 0.5;
-  stroke:rgb(255, 255, 255);
-  fill-opacity: 0;
+  stroke-width: 0.7;
+  stroke:rgb(0, 0, 255);
+  fill:rgb(255, 255, 255);
+  fill-opacity: 1;
 }
 
 .clock .hand.minutes {
-  stroke-width: 0.5;
-  stroke:rgb(255, 255, 255);
-  fill-opacity: 0
+  stroke-width: 0.7;
+  stroke:rgb(0, 0, 255);
+  fill:rgb(255, 255, 255);
+  fill-opacity: 1;
 }
 
 .clock .hand.seconds {
@@ -59,14 +61,14 @@ body {
 
 .clock .minute-marks .numbered-mark {
   fill: var(--clock-color);
-  font-size: 3px;
+  font-size: 10px;
   font-family: sans-serif;
   text-anchor: middle;
 }
 
 .clock .second-marks .numbered-mark {
   fill: var(--clock-color);
-  font-size: 2px;
+  font-size: 3px;
   font-family: sans-serif;
   text-anchor: middle;
 }
