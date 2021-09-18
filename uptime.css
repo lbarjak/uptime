@@ -28,16 +28,14 @@ body {
 
 .clock .hand.hours {
   stroke-width: 0.7;
-  stroke:rgb(0, 0, 255);
-  fill:rgb(255, 255, 255);
-  fill-opacity: 1;
+  stroke:rgb(255, 255, 255);
+  fill-opacity: 0;
 }
 
 .clock .hand.minutes {
   stroke-width: 0.7;
-  stroke:rgb(0, 0, 255);
-  fill:rgb(255, 255, 255);
-  fill-opacity: 1;
+  stroke:rgb(255, 255, 255);
+  fill-opacity: 0;
 }
 
 .clock .hand.seconds {
